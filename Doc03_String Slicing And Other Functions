@@ -1,0 +1,52 @@
+🎈 STRINGS 
+  String is a data type in Python. Strings in Python programming language are arrays of bytes representing a sequence of characters. 
+  In simple terms, Strings are the combination or collection of characters enclosed in quotes.
+  Primarily, you will find 3 types of strings in Python :
+  1. Single Quote String – (‘Single Quote String’)
+  2. Double Quote String – (“Double Quote String”)
+  3. Triple Quote String – (‘’’ Triple Quote String ‘’’)
+  
+ 🎈 len() Function
+  This len() function returns the total no. of characters in a string
+  Strings are one of the most used data types in any programming language because most of the real-world data 
+  Eg: name, address, or any sequence which contains alphanumeric characters are mostly of type ‘String’.
+  
+  x = "String Demo"
+  This string variable x contains a string containing 11 characters (including spaces). Since the index in a string starts from 0 to length-1
+  Note: The indexes of a string begin from 0 to (length-1) in the forward direction (0 --> 1 --> 2--> 3 --> 4)
+  -length in the backward direction.  (-1,-2,-3,…, )
+  
+  🎈 String Slicing
+  As we know the meaning of the word ‘slice’ is ‘a part of’. I am sure you have sliced paneer cubes at home!
+  Just like paneer slice refers to the part of the paneer cube; 
+  In Python, the term ‘string slice’ refers to a part of the string, where strings are sliced using a range of indices.
+  To do string slicing we just need to put the name of the string followed by [n:m]. 
+  ‘n’ denotes the index from which slicing should start 
+  ‘m’ denotes the index at which slicing should terminate or complete.
+  
+  Example:
+  
+  word = "AMAZING"
+  word[0:7]      : AMAZING
+  word[0:3]      : AMA
+  word[2:5]      : AZI
+  word[-7:-3]    : AMAZ
+  word[-5:-1]    : AZIN
+  
+  NOTE :: Dont consider the last index mentioned in the range.
+  In Python, string slicing s[n:m] for a string s is done as characters of s from n to m-1. It means characters are taken from the first index to second index-1.
+  
+  
+  SKIPPING THE VALUES:
+  In string slicing, we sometimes need to give a skip value i.e. string[n:m:skip_value]. 
+  This simply takes every skip_valueth character. 
+  By default, the skip value is 1 but if we want to choose alternate characters of a string then we can give it as 2
+  
+  🎈 STRING FUNCTIONS:
+    string.endswith(): This function allows the user to check whether a given string ends with passed argument or not. It returns True or False.
+    string.count(): This function counts the total no. of occurrence of any character in the string. It takes the character whose occurrence you want to find as an argument.
+    string.capitalize(): This function capitalizes the first character of any string. It doesn’t take any argument.
+    string.upper(): It returns the copy of the string converted to the uppercase.
+    string.lower(): It returns the copy of the string converted to lower case.
+    string.find(): This function finds any given character or word in the entire string. It returns the index of first character from that word.
+    string.replace(“old_word”, “new_word”): This function replaces the old word or character with a new word or character from the entire string.
