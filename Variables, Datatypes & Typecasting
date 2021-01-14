@@ -1,0 +1,79 @@
+🎈 VARIABLE
+    A variable is a name given to any storage area or memory location in a program.
+    In simple words, we can say that a variable is a container that contains some information, and whenever we need that information, 
+    we use the name of that container to access it. 
+  
+   Let's create a variable:
+   --> a = 34    # Variable storing an integer
+   --> b = 23.2  # Variable storing real number
+   
+    Rules for defining a variable 
+      A variable name can contain alphabets, digits, and underscores (_). For E.g. : demo_xyz = ‘It’s a string variable’
+      A variable name can only start with an alphabet and underscore.
+      It can't start with a digit. For an example, 5harry is illegal and not allowed.
+      No white-space is allowed to be used inside a variable name.
+      Also, reserved keywords are not recommended to be used as variable names.
+      Examples of few valid variable names are harry, _demo, de_mo, etc.
+
+🎈 DATATYPES 
+   Primarily there are following data types in Python.
+    ✔ Integers                  (<class 'int'>)     : Used to store integers
+    ✔ Floating point numbers    (<class 'float'>)   : Used to store decimal or floating-point numbers
+    ✔ Strings                   (<class 'str'>)     : Used to store strings
+    ✔ Booleans                  (<class 'bool'>)    : Used to store True/False type values
+    ✔ None                                          : None is a literal to describe 'Nothing'  
+
+Python is a fantastic language that automatically identifies the type of data for us.
+It means we need to put some data in a variable, and Python automatically understands the kind of data a variable is holding. Cool, isn't it?😎
+
+🎈 type() Function 
+  type() function is a function that allows a user to find data type of any variable.
+  It returns the data type of any data contained in the variable passed to it.
+  Have a look at the code below which depicts the use of type function:
+    # abc = " This is a string in python"
+    # _abcd = 2
+    # abc_d = 78.3                OUPUT ::
+    # print(type(abc))          <class 'str'>
+    # print(type(_abcd))        <class 'int'>
+    # print(type(abc_d))        <class 'float'>
+
+NOTE – We can't do arithmetic operations of numbers with strings i.e. we can't add a string to any number. Have a look at the example below:
+OUPUT :: TypeError: unsupported operand type(s) for +: 'int' and 'str'
+  # ab = 4
+  # bc = "I am a string"
+  # print(ab + bc)
+
+NOTE – We can add (concatenate) two or more strings and the strings will be concatenated to return another string. Heres the example showing that:
+# Concatenation of strings
+var1 = "Hey hi! "
+var2 = "My name is "
+print(var1 + var2 + "Pooja")        OUPUT :: Hey hi! My name is Pooja
+
+
+🎈 TYPECASTING ::
+  Typecasting is the way to change one data type of any data or variable to another datatype, i.e. it changes the data type of any variable to some other data type.
+  It's a bit confusing but let me tell you in a simple manner. 
+  Suppose there is a string "34" Note: String is not integer since it is enclosed in double-quotes) and as we know we can't add this to an integer number let's say 6.
+  But to do so we can typecast this string to int data type and then we can add 34+6 to get the output as 40. Have a look at the program below:
+    # p = "78"
+    # q = 98
+    # # print(p + q)     OUTPUT :: # TypeError: can only concatenate str (not "int") to str
+    # print(int(p) + q)  OUTPUT :: 176
+
+There are many functions to convert one data type into another type :
+
+str() – this function allows us to convert some other data type into a string.
+int() – this function allows us to convert some other data type into an integer. For example, str("34") returns 34 which is of type integer (int)
+float() – this function allows us to convert some other data type into floating-point number i.e. a number with decimals.
+
+
+🎈input() Function 
+  This function allows the user to receive input from the keyboard into the program as a string. 
+  input() function always takes input as a string i.e. if we ask the user to take a number as input even then it will take it as a string 
+  And we will have to typecast it into another data type as per the use case.
+  
+  # print("Enter the age ")
+  # age = int(input("Age: "))
+  print(age)
+  
+  
