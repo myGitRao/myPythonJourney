@@ -1,0 +1,41 @@
+LISTS::
+  Python lists are containers used to store a list of values of any data type. In simple words, we can say that a list is a collection of elements from any data type
+  Eg: list1 = ['harry', 'ram', 'Aakash', 'shyam', 5, 4.85]
+  The above list contains strings, an integer, and even an element of type float. A list can contain any kind of data i.e. it’s not mandatory to form a list of only one data type. The list can contain any kind of data in it.
+
+  Like string list of elements can also be accessed by using Indices i.e. first element of the list has 0 index and the second element has 1 as its index and so on.
+
+  NOTE::
+  If you put an index which isn’t in the list i.e. that index is not there in list then you will get an error. i.e. if a list named list1 contains 4 elements, 
+  list1[4] will throw an error because the list index starts from 0 and goes upto (index-1) or 3.
+
+LIST METHODS::
+  Here is the list of methods in Python. These methods can be used in any python list to produce the desired output.
+ --> list1 =["Pooja", "Rao", 2, 5, 8.9, "Kite", "Runner"]
+     # print(list1.insert(2, "Inserted"))
+     # print(list1.pop(5))
+     # print(list1.clear())
+     # print(list1.sort()) # Will give error as it has both str and int
+
+LIST SLICING::
+  List slices, like string slices, returns a part of a list extracted out of it. 
+  Let me explain, you can use indices to get elements and create list slices as per the following format :
+  seq = list1[start_index:stop_index]
+  Just like we saw in strings, slicing will go from a start index to stop_index-1. 
+  It means the seq list which is a slice of list1 contains elements from the specified start_index to specified (stop_index – 1).
+
+LIST METHODS::
+  There are a lot of list methods that make our life easy while using lists in python. Lets have a look at few of them below:
+    # print(list1.insert(2, "Inserted"))
+    # print(list1.pop(5))
+    # print(list1.clear())
+    # print(list1.sort())
+
+TUPLES ::
+A tuple is an immutable data type in Python. A tuple in python is a collection of elements enclosed in () (parentheses). 
+Tuple once defined can’t be changed i.e. its elements or values can’t be altered or manipulated.
+
+NOTE::
+To create a tuple of one element it is necessary to put a comma  ‘,’ after that one element like this tup=(1,) because if we have only 1 element inside the parenthesis, 
+the python interpreter will interpret it as a single entity which is why it’s important to use a ‘,’ after the element while creating tuples of a single element.
+
