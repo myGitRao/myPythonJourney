@@ -14,7 +14,13 @@ Here are a few important features of a python dictionary:
 
     # a = {'key', 'value', 'cow':'mooh'}
     # print(a['cow'])                      #will print "mooh" on the screen  
+    
+    # d2 = {"Harry" : "Burger", "Rohan" : "Fish", "SkillF" : "Roti",
+      "Shubham" : {"B" : "maggie", "L" : "roti", "D" : "Chicken"}, "Ankit" : "Junk Food", 420 : "Kebabs"}
+    # print(d2.keys())        # OUTPUT : dict_keys(['Harry', 'Rohan', 'SkillF', 'Shubham', 'Ankit', 'Leena'])
+    # print(d2.items())       # OUTPUT : dict_items([('Harry', 'Burger'), ('Rohan', 'Fish'), ('SkillF', 'Roti'), ('Shubham', {'B': 'maggie', 'L': 'roti', 'D': 'Chicken'}), ('Ankit', 'Junk Food'), ('Leena', 'Toffee')])
 
+    
 With the help of dictionaries, we do not have to do most of our work manually through code like in C or C++. 
 With a long list of already defined methods for dictionaries that can help us to do our work in a shorter span of time with a very little amount of code.
 Some of these methods are, clear(), copy(), popitem(), etc.
