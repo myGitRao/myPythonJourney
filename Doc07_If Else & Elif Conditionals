@@ -1,0 +1,34 @@
+DEFINATION ::
+“If, else and elif statement can be defined as a multiway decision taken by our program due to the certain conditions in our code.”
+“If and else” are known as decision-making statements for our program. 
+They are very similar to the decision making we apply in our everyday life that depends on certain conditions.
+
+ An “if” statement is a must because without an if we cannot apply “else” or “else-if” statement. 
+
+There is no limit to the number of conditions that we could use in our program. 
+We can apply as many elif statements as we want but we can only use one “else” and one “if” statement.
+We can use nested if statements i.e. if statement within an if statement. It is quite helpful in many cases.
+Decision statements can be written using logical conditions which are:
+Equal to
+Not equal to
+Less than
+Greater than
+Greater than equal to
+Less than equal to
+We can also use Boolean or our custom-made conditions too.
+
+EXAMPLE::
+var1 = 6
+var2 = 56
+var3 = int(input())
+if var3>var2:
+    print("Greater")
+elif var3==var2:
+    print("Equal")
+else:
+    print("Lesser")
+
+list1 = [5, 7, 3]
+print(15 not in list1)
+if 15 not in list1:
+    print("No its not in the list")
