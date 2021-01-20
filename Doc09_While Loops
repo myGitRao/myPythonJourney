@@ -1,0 +1,11 @@
+“A while loop in python runs a bunch of code or statements again and again until the given condition is true when the condition becomes false, the loop terminates its repetition.”
+The syntax for while loop is simple and very much like for loop. We have to use the keyword “while”, along with it we have to put a condition in parenthesis and after that, a colon is placed. 
+The condition could be either true or false. Until the condition is true, the loop will keep on executing again and again. 
+If we use a certain sort of condition in our while loop that, it never becomes false then the program will keep on running endlessly, until we stop it by force.
+So, this kind of mistake in our syntax is known as logical/human error.
+
+EXAMPLE::
+i = 1
+while i < 6:
+  print(i)
+  i += 1
