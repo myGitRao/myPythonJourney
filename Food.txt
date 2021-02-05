@@ -1,0 +1,1 @@
+Inserting this in a file with write mode
